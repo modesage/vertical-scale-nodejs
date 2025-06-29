@@ -1,0 +1,19 @@
+{
+  "name": "pm2-clustering",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+  "start": "pm2 start index.js --name vertical-scale-nodejs-pm2 -i max",
+  "stop": "pm2 stop vertical-scale-nodejs-pm2",
+  "restart": "pm2 restart vertical-scale-nodejs-pm2",
+  "logs": "pm2 logs vertical-scale-nodejs-pm2",
+  "status": "pm2 status vertical-scale-nodejs-pm2"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
